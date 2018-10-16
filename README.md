@@ -20,11 +20,13 @@ To install the plugin, follow these instructions.
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Craft Redactor Script Buttons.
 
-4. Make sure that the `scriptbuttons` plugin is added to all Redactor configs that you want superscript and subscript buttons to appear in.
+4. Make sure that the `scriptbuttons` plugin is added to all Redactor configs that you want superscript and subscript buttons to appear in and that `sup` and/or `sub` are added to the buttons section.
 
 Example:
 
+    buttons: "sup", "sub",
     plugins: ['scriptbuttons']
+
 
 ## Craft Redactor Script Buttons Roadmap
 
