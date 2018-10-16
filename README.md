@@ -24,7 +24,7 @@ To install the plugin, follow these instructions.
 
 Example:
 
-    buttons: "sup", "sub",
+    buttons: ["sup", "sub"],
     plugins: ['scriptbuttons']
 
 
